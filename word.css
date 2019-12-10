@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	height: 60px;
+	background-color: #EB0707;
+}
+header div.wrap {
+	width: 980px;
+	margin: 20px auto;
+	text-align: center;
+}
+div.wrap > div.workneed {
+	padding: 10px 0px;
+}
+div.wrap div.workneed > input {
+	width: 200px;
+	border-radius: 5px;
+	height: 30px;
+	border : 1px solid #FC870A;
+}
+div.wrap div.workneed > button {
+	width: 150px;
+	border-radius: 5px;
+	border: 1px solid #FC870A;
+	height: 30px;
+	background-color: #F309B9;
+	cursor: pointer;
+}
+section {
+	width: 100%;
+	background-color: #D0CDCD;
+}
+section div.work {
+	width: 980px;
+	margin: auto;
+	padding: 20px 0px;
+	position: scroll;
+}
+div.work li {
+	padding: 10px 0px;
+	list-style: none;
+	font-weight: bold;
+	font-size: 2em;
+	color: #0B55DC;
+	cursor: pointer;
+	display: block;
+}
+section h3 {
+	text-align: center;
+	background-color: #EC15EF;
+	font-size: 2em;
+}
